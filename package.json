@@ -69,6 +69,7 @@
         "@babel/register": "^7.14.5",
         "@babel/runtime": "^7.14.8",
         "@emotion/babel-plugin": "^11.3.0",
+        "axios": "^0.24.0",
         "babel-core": "7.0.0-bridge.0",
         "babel-eslint": "10.1.0",
         "babel-jest": "^27.0.6",
@@ -130,7 +131,7 @@
         "mini-css-extract-plugin": "^2.2.0",
         "node-hot-loader": "^1.21.4",
         "node-sass": "^6.0.1",
-        "nodemon": "^2.0.12",
+        "nodemon": "^2.0.15",
         "postcss": "^8.3.6",
         "postcss-import": "^14.0.2",
         "postcss-loader": "^6.1.1",
@@ -153,7 +154,8 @@
     },
     "nodemonConfig": {
         "ignore": [
-            "*.hot-update.json"
+            "*.hot-update.json",
+            "server/data/*.json"
         ]
     },
     "husky": {
